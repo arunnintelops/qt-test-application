@@ -6,7 +6,7 @@ spec:
     type: http
     httpRequest:
       method: GET
-      url: http://user-dev.alpha.intelops.app/users/123587
+      url: http://user.azureagent.optimizor.app/users/123587
       headers:
       - key: Content-Type
         value: application/json
