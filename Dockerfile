@@ -7,8 +7,8 @@ COPY ./ ./
 
 # Build
 #RUN make proto-gen-all
-RUN  make vendor
-RUN  make build_user
+#RUN  make vendor
+#RUN  make build_user
 
 # RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on go build -a -o builds/user cmd/user/main.go
 
