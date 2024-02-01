@@ -30,8 +30,8 @@ func main() {
 	logger.Infof("Server Starting...")
 
 	pyroscope.Start(pyroscope.Config{
-		ApplicationName: "qt.test.app",
-		ServerAddress:   "https://pyroscope.azureagent.optimizor.app",
+		ApplicationName: "qt.test.application",
+		ServerAddress:   "http://pyroscope.azureagent.optimizor.app",
 		Logger:          pyroscope.StandardLogger,
 		ProfileTypes: []pyroscope.ProfileType{
 			pyroscope.ProfileCPU,
