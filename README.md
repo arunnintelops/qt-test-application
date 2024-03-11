@@ -1,2 +1,2 @@
 # qt-test-application
-capten-demo-qt
+capten-demo-qt-demo
